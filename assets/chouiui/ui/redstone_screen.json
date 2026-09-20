@@ -1,0 +1,50 @@
+{
+  "hopper_screen": {
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_content": "chouiui.hopper_content",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.75
+      },
+      {
+        "requires": "$pocket_screen",
+        "$screen_content": "chouiui.hopper_content",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.75
+      }
+    ]
+  },
+  "dispenser_screen": {
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_content": "chouiui.dispenser_content",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.75
+      },
+      {
+        "requires": "$pocket_screen",
+        "$screen_content": "chouiui.dispenser_content",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.75
+      }
+    ]
+  },
+  "dropper_screen": {
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_content": "chouiui.dispenser_content",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.75
+      },
+      {
+        "requires": "$pocket_screen",
+        "$screen_content": "chouiui.dispenser_content",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.75
+      }
+    ]
+  }
+}
