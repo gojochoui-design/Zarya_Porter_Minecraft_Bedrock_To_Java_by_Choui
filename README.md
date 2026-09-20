@@ -28,13 +28,6 @@ The **Settings** button in the header opens a panel where everything applies ins
 - **Default save folder** - pick a folder and every converted pack lands there by default; leave it empty to save next to the source pack.
 - Your option switches are remembered too.
 
-## Making an EXE
-
-Run `Build EXE (Windows).bat` (or `Build EXE (Linux-Mac).sh`) and you get a single-file `Zarya Porter.exe` with the icon baked in - it needs Python and PyInstaller, both installed automatically by the script. There is also a GitHub Actions workflow in `.github/workflows/build-exe.yml` that builds the EXE for you in the cloud.
-
-## Android app - where is the APK?
-
-There is no precompiled APK file sitting in this folder, because an APK has to be built on a Linux machine with the whole Android toolchain. Two ways to get your APK, both free:
 
 **The easy way (recommended, ~25 minutes, no tools needed):**
 1. Create a free account at [github.com](https://github.com) and create a new repository.
